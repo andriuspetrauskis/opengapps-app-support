@@ -1,0 +1,181 @@
+<resources tools:ignore="ExtraTranslation" xmlns:tools="http://schemas.android.com/tools">
+    <string name="translators">"@andriuspetrauskis"</string> <!--put/add yourself here as the AUTHOR(S) of this translation-->
+    <!--______APP INTRO______-->
+        <!--TITLES-->
+            <string name="appintro_introslide_title">Jūs naudojate oficialią OpenGApps.org programą</string>
+            <string name="appintro_storageperm_title">Failų prieigos teisės</string>
+            <string name="appintro_root_title">Root prieiga</string>
+            <string name="appintro_label_architecture">CPU architektūra</string>
+            <string name="appintro_label_android">Android Versija</string>
+            <string name="appintro_label_variant">Paketo versija</string>
+            <string name="label_tos">Naudojimosi sąlygos</string>
+        <!--DESCRIPTIONS-->
+            <string name="appintro_storageperm_explain">To download an Open GApps package, you have to grant the app permission to your File Storage</string>
+            <string name="slide_arch_description">Please select the architecture you’d like to use for your Open GApps package</string>
+            <string name="slide_android_description">Please select the Android version you’d like to use for your Open GApps package</string>
+            <string name="slide_variant_description">Please select the package variant you’d like to use for your Open GApps package</string>
+            <string name="appintro_root_explanation">The app offers an integrated install-mode to directly install a downloaded package. This install-mode requires <i>root access</i>. If you want to use it, you need to grant us root permission. \nThis step is completely optional.</string>
+            <string name="appintro_terms_explain">The pre-built packages from OpenGApps.org are provided ONLY as courtesy by OpenGApps.org without warranty of ANY kind, under the terms that they can be freely used for personal use only, and are not allowed to be mirrored to the public other than OpenGApps.org. \n \n Take note that Open GApps doesn’t provide you with any license for Google’s APKs included in the package. The Open GApps packages merely provide a convenient way to sideload APKs to your device. It is your own responsibility to obtain the proper permissions by e.g. buying an OHA-licensed device with pre-installed Google Apps and/or acquiring the applications from Google’s Play Store.</string>
+        <!--HINTS-->
+            <string name="slide_arch_hint">The app automatically detects the architecture of your device</string>
+            <string name="slide_android_hint">The app automatically detects the Android version of your device</string>
+            <string name="slide_variant_hint">The app automatically detects the variant installed on your device</string>
+        <!--VARIOUS-->
+            <string name="detected">detected</string>
+
+    <!--______PREFERENCES______-->
+        <!--LABELS-->
+            <string name="pref_header_interface">Išvaizda</string>
+            <string name="pref_header_install">Įrašyti</string> <!--noun-->
+            <string name="pref_header_download">Atsisiųsti</string> <!--noun-->
+            <string name="label_dark_mode">Tamsi tema</string>
+            <string name="new_folder">Nauja direktorija</string>
+            <string name="pref_header_gapps_selection">GApps-pasirinkimas</string>
+            <string name="action_settings">Nustatymai</string>
+            <string name="label_wifi_only">Tik per Wi-Fi</string>
+            <string name="label_download_dir">Atsisiųti direktoriją</string>
+            <string name="label_wipe_cache">Išvalyti podėlį/Dalvik</string>
+            <string name="label_download_md5">Atsisiųsti MD5</string>
+            <string name="label_automatic_cleanup">Automatiškai valyti siuntinius</string>
+            <string name="label_number_packages_kept">Kiek paketų palikti prieš išvalant senus duomenis</string>
+            <string name="label_download_versionlog">Atsisiųsti versijos logą</string>
+            <string name="label_root_mode">Naudoti root teises</string>
+            <string name="label_pref_install_warning">Rodyti įspėjimą prieš įrašant</string>
+            <string name="label_pref_delete_warning">Rodyti įspėjimą prieš ištrinant</string>
+        <!--SUMMARIES-->
+            <string name="explanation_dark_mode">Tamsi tema padidina skaitomumą tamsoje</string>
+            <string name="summary_wifi_only">Atsisiųsti tik naudojant Wi-Fi</string>
+            <string name="explanation_newest_version">Ištrinti seną verisją, kai nauja panaši versija jau įrašyta</string>
+            <string name="explanation_keep_packages">%1$d senesnių panašių versijų bus palikta</string>
+            <string name="explanation_download_md5">Atsisiųsti MD5-kodą pagal kurį galima patikrinti ar duomenys nėra sugadinti</string>
+            <string name="explanation_download_versionlog">Atsisiųti versijų sąrašą to list package content</string>
+            <string name="summary_root_mode">Grant root access to enable install-mode and the wipe cache/dalvik setting</string>
+            <string name="explanation_wipe_dalvik">Forces re-optimization of cache at next boot. Takes more time, but helps to prevent potential issues.</string>
+            <string name="explanation_pref_install_warning">Show a warning dialog before installation to prevent accidental installation</string>
+            <string name="explanation_pref_delete_warning">Show a warning dialog before deleting a package to prevent accidental removal</string>
+        <!--DIALOG-->
+            <string name="explanation_cleanup_now">Clean-up older packages right now?</string>
+        <!--FILECHOOSER (EXTERNAL LIBRARY)-->
+            <string name="label_confirm">Patvirtinti</string>
+            <string name="label_select">Pasirinkti</string>
+            <string name="label_create">Sukurti</string>
+            <string name="text_freespace">%1$s laisva</string>
+            <string name="title_storage_chooser">Pasirinkite kur saugoti</string>
+            <string name="title_storage_chooser_internal">Vidinė atmintis</string>
+            <string name="label_select_external_storage">Pasirinkti išorinę atmintį</string>
+            <string name="create_folder_success">Direktorija sukurta</string>
+            <string name="create_folder_error">Nepavyko sukurti direktorijos</string>
+            <string name="create_folder_error_no_write_access">Nepavyko įrašyti į šią direktoriją</string>
+            <string name="create_folder_error_already_exists">Tokia direktorija jau yra</string>
+            <string name="hint_folder_name">Direktorijos pavadinimas</string>
+            <string name="error_tip_empty_field">Tuščias direktorijos pavadinimas</string>
+
+    <!--______Nav-Drawer______-->
+        <string name="label_links">Nuorodos</string>
+        <string name="label_blog">Tinklaraštis</string>
+
+    <!--______GENERAL______-->
+        <!--LABELS-->
+            <string name="app_name">Atidaryti GApps</string>
+            <string name="label_ok">OK</string>
+            <string name="label_cancel">Atšaukti</string>
+            <string name="label_no">Ne</string>
+            <string name="label_yes">Taip</string>
+            <string name="label_close">Uždaryti</string>
+            <string name="label_adblock_detected">Adblocker aptiktas</string>
+            <string name="label_permission_denied">Prieiga nesuteikta</string>
+            <string name="permission_granted">Preiga suteikta! Ačiū!</string>
+            <string name="label_grant_permission">Suteikti prieigą</string>
+            <string name="navigation_drawer_open">Open navigation drawer</string>
+            <string name="navigation_drawer_close">Close navigation drawer</string>
+            <string name="label_accept">Priimti</string>
+            <string name="label_accepted">Priimta</string>
+            <string name="label_decline">Atmesti</string>
+            <string name="label_delete">Atmesta</string>
+            <string name="label_delete_warning">Ištrinti %1$s?</string>
+            <string name="dont_show_again">Daugiau neberodyti</string>
+            <string name="title_optional_app_update">Yra programėlės atnaujinimas</string>
+            <string name="ms_prev">Buvęs</string>
+            <string name="ms_next">Kitas</string>
+            <string name="ms_end">Viskas</string>
+        <!--FEEDBACK-->
+            <string name="label_now">Dabar</string>
+            <string name="label_later">Vėliau</string>
+            <string name="label_never">Niekada</string>
+            <string name="label_rate">Įvertinimas</string>
+            <string name="title_rate_us">Įvertinkite šitą programėlę</string>
+            <string name="message_rate_us">We hope you enjoy using this app, it won’t take more than a minute to rate or give some feedback. It can help other users discover this app too!</string>
+            <string name="label_supportproject">Pagalba</string> <!--verb-->
+            <string name="message_supportproject">If you like the Open GApps packages, please consider supporting the project. The development of the packages is completely open source and we all benefit from the developers’ efforts!</string>
+        <!--EXPLANATION-->
+            <string name="explanation_permission_denied">In order to work correctly you have to grant Open GApps the permission to your external storage. Makes sense, doesn’t it?</string>
+            <string name="explanation_adblock_detected">Adblocker detected!? Ads can be frustrating, but they keep the project and its developers alive! Please consider disabling your adblocker or a donation instead</string>
+            <string name="title_webview_not_installed">Oops! No WebView Provider installed!?</string>
+            <string name="message_webview_not_installed">It seems you have uninstalled \"Stock WebView\", but your ROM doesn’t support the \"Google WebView\". Re-flash your ROM and ask the ROM developer to add support for alternative WebView Providers.</string>
+
+    <!--______DOWNLOAD/INSTALL______-->
+        <!--LABELS-->
+            <string name="label_download_error">Nepavyko prisijungti prie serverio</string>
+            <string name="label_download">Atsisiųsti</string> <!--verb-->
+            <string name="label_pause">Pristabdyti</string>
+            <string name="label_paused">Pristabdyta</string>
+            <string name="label_resume">Paleisti</string>
+            <string name="label_architecture">Architektūra</string>
+            <string name="label_variant">Variantas</string>
+            <string name="label_size">Dydis</string>
+            <string name="label_filesize">Failo dydis</string>
+            <string name="invalid_combo">Invalid combination</string>
+            <string name="label_install">Įrašyti</string> <!--verb-->
+            <string name="label_install_warning">Įrašyti %1$s?</string>
+            <string name="label_update">Atnaujinti</string>
+            <string name="label_change_selection">Pakeisti pasirinkimą</string>
+            <string name="download_started">Siuntimas prasidėjo</string>
+            <string name="label_download_package">Atsisiųti paketą</string>
+            <string name="label_install_package">Įrašyti paketą</string>
+            <string name="label_md5_checksum">MD5-kodas</string>
+            <string name="label_copy_checksum">Kopijuoti kodą</string>
+            <string name="file_not_found">Failas nerastas</string>
+            <string name="label_versionlog">Versijų sąrašas</string>
+            <string name="label_show_md5">Rodyti MD5-kodą</string>
+            <string name="label_show_versionlog">Rodyti versijų sąrašą</string>
+            <string name="label_share">Dalintis</string>
+            <string name="label_new">naujas</string>
+            <string name="label_checksum_valid">Kodas teisingas</string>
+            <string name="label_checksum_invalid">Kodas neteisingas</string>
+            <string name="label_starting_download">Pradedamas atsiuntimas</string>
+        <!--EXPLANATION-->
+            <string name="explanation_wifi_needed">You are not connected to Wi-Fi. To enable downloading via mobile data, disable "Wi-Fi only" in the settings</string>
+            <string name="explanation_optional_app_update">An update for the app is available</string>
+            <string name="explanation_forced_update">You have to update in order to continue using the app</string>
+            <string name="label_root_is_need_for_rootmode">Your device needs to be rooted in order to activate</string>
+            <string name="autoinstall_root_disclaimer">Automatic Install only works if Open GApps is installed as system app or with root permission</string>
+
+    <!--______SUPPORT______-->
+        <string name="label_support">Pagalba</string> <!--noun-->
+        <string name="label_app">Programa</string>
+        <string name="label_homepage">Pagrindinis</string>
+        <string name="label_translate">Išversti</string>
+        <string name="label_wiki">Atidaryti GApps Wiki</string>
+        <string name="label_support_forum">Pagalbos forumas</string>
+        <string name="label_support_chat">Pagalbos pokalbis</string>
+        <string name="label_sourcecode">Programos kodas</string>
+        <string name="label_support_opengapps">Paremti GApps projektą</string>
+        <string name="label_support_opengapps_description">The open source project providing the scripts for the OpenGApps.org packages</string>
+        <string name="label_report_bug">Pranešti apie klaidą</string>
+
+    <!--______ABOUT______-->
+        <!--LABELS-->
+            <string name="title_activity_about">Apie</string>
+            <string name="label_version">Versijos</string>
+            <string name="main_dev">Pagrindinis kūrėjas</string>
+            <string name="co_dev">Pagalbinis kūrėjas</string>
+            <string name="label_design">Meno kūriniai</string>
+            <string name="label_translator">Vertėjas</string>
+            <string name="label_translators">Vertėjai</string>
+            <string name="label_producer">Gamintojas</string>
+            <string name="label_eastereggs_found">Rasta velykinių kiaušinių</string>
+            <string name="used_libs">Bibliotekos</string>
+            <string name="tap_show_more">Daugiau informacijos paspaudus</string>
+        <!--LIBRARIES DIALOG (EXTERNAL LIBRARY)-->
+            <string name="notices_title">Pranešimai</string>
+</resources>
